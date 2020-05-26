@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Siute" duration-ms="13" started-at="2020-04-21T03:00:16Z" finished-at="2020-04-21T03:00:16Z">
+    <groups>
+    </groups>
+    <test name="rechargeTest" duration-ms="13" started-at="2020-04-21T03:00:16Z" finished-at="2020-04-21T03:00:16Z">
+      <class name="com.lemon.day01.section01.NewTest">
+        <test-method status="FAIL" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.day01.section01.NewTest@26653222]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-04-21T11:00:16Z" finished-at="2020-04-21T11:00:16Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'driverPath' is required by @Configuration on method beforeSuite but has not been marked @Optional or defined
+in D:\java\MavenTester\src\test\java\com\lemon\day01\section01\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'driverPath' is required by @Configuration on method beforeSuite but has not been marked @Optional or defined
+in D:\java\MavenTester\src\test\java\com\lemon\day01\section01\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="SKIP" signature="f()[pri:0, instance:com.lemon.day01.section01.NewTest@26653222]" name="f" duration-ms="4" started-at="2020-04-21T11:00:16Z" finished-at="2020-04-21T11:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.lemon.day01.section01.NewTest@26653222]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-04-21T11:00:16Z" finished-at="2020-04-21T11:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.lemon.day01.section01.NewTest -->
+    </test> <!-- rechargeTest -->
+  </suite> <!-- Siute -->
+</testng-results>

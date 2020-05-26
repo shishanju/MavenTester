@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Siute]">
+  <parameter name="dirverPath" value="src/test/resources/driver/chromedriver.exe"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="rechargeTest(failed)">
+    <classes>
+      <class name="com.lemon.day01.section01.NewTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.lemon.day01.section01.NewTest -->
+    </classes>
+  </test> <!-- rechargeTest(failed) -->
+</suite> <!-- Failed suite [Siute] -->
